@@ -6,7 +6,7 @@ services:
     container_name: portfolio
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.portfolio.rule=Host(`www.dreamgearweb.com`)"
+      - "traefik.http.routers.portfolio.rule=Host(`www.dreamgearweb.com`) || Host(`dreamgearweb.com`)"
       - "traefik.http.routers.portfolio.entrypoints=websecure"
       - "traefik.http.routers.portfolio.tls.certresolver=myresolver"
     networks:
