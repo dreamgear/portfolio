@@ -1,8 +1,9 @@
 <template>
   <div class="container animate-in">
-    <header style="text-align: center; margin-bottom: 4rem;">
-      <h1>Portfolio</h1>
-      <p style="margin: 0 auto;">A showcase of modern web technologies.</p>
+    <header style="margin-bottom: 3rem;">
+      <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; background: none; -webkit-text-fill-color: initial; color: var(--text-main);">Jeff Dickens</h1>
+      <p style="margin: 0; color: var(--accent-primary); font-weight: 600;">Full Stack Engineer</p>
+      <p style="margin: 0; font-size: 0.95rem;">dreamgear@gmail.com</p>
     </header>
 
     <main>
