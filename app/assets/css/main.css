@@ -5,11 +5,11 @@
     --card-bg: rgba(255, 255, 255, 0.03);
     --text-main: #ffffff;
     --text-muted: #a0a0b0;
-    --accent-primary: #8b5cf6;
+    --accent-primary: #60F0D0;
     /* Violet */
-    --accent-secondary: #06b6d4;
+    --accent-secondary: #486bec;
     /* Cyan */
-    --accent-tertiary: #ec4899;
+    --accent-tertiary: #6648ec;
     /* Pink */
     --glass-border: rgba(255, 255, 255, 0.08);
     --glow-color: rgba(139, 92, 246, 0.3);
@@ -55,6 +55,40 @@ h1 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+dl {
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+dd {
+    font-weight: 400;
+    padding-left: 3rem;
+    font-size: .8rem;
+}
+
+dt {
+    padding-left: 1rem;
+}
+
+li {
+    font-weight: 300;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+.heading-alpha,
+.heading-beta,
+.heading-gamma {
+    font-size: 1rem;
 }
 
 .heading-alpha {
