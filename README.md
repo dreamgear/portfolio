@@ -73,3 +73,30 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Deployment
+
+This portfolio is deployed as a static site served by Nginx in a Docker container behind Traefik.
+
+### Quick Deploy
+
+Run the following commands locally to deploy updates:
+
+`ash
+# 1. Generate static site
+npm run generate
+
+# 2. Copy static files to the server
+scp -r .output/public jeff@one.dreamgearweb.com:/home/jeff/portfolio/
+
+# 3. Rebuild and restart the container
+ssh jeff@one.dreamgearweb.com "cd /home/jeff/portfolio && docker compose up -d --build"
+``n
+### Server Configuration
+- **Location**: /home/jeff/portfolio
+- **URL**: [https://www.dreamgearweb.com](https://www.dreamgearweb.com)
+- **Files**:
+  - docker-compose.yml: Defines the web service and Traefik labels.
+  - 
+ginx.conf: Nginx configuration for serving static assets.
+  - Dockerfile: Builds the Nginx image with the static content.
