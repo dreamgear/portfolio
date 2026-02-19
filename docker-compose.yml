@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    build: .
+    image: ghcr.io/dreamgear/portfolio:latest
     container_name: portfolio
     labels:
       - "traefik.enable=true"
