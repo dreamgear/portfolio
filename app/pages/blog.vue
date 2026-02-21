@@ -45,7 +45,8 @@ function goToPage(p) {
 
 <template>
   <div class="container animate-in">
-    <header style="margin-bottom: 3rem;">
+    <header style="margin-bottom: 3rem; display: flex; align-items: center; gap: 2rem;">
+      <img src="~/assets/images/headshot_2602.png" alt="Jeff Dickens" style="width: 150px; height: auto; border-radius: 8px;" />
       <div class="blog-page-header">
         <NuxtLink to="/" class="blog-back-link">← Back to Portfolio</NuxtLink>
         <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; background: none; -webkit-text-fill-color: initial; color: var(--text-main);">Blog</h1>
