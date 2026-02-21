@@ -1,6 +1,6 @@
 ---
 title: "Adding a blog entry via github.dev"
-date: 2026-02-18
+date: 2026-02-21
 excerpt: "I knew about vscode.dev, which give you vscode in a browser, but I've recently learned about github.dev..."
 ---
 
